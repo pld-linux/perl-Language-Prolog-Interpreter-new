@@ -7,7 +7,8 @@ Name:		perl-Language-Prolog-Interpreter-new
 Version:	0.021
 Release:	2
 Epoch:		1
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1159b02e61855b16d1b1a1eed63538f7
