@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	Prolog-Interpreter
 Summary:	Language::Prolog::Interpreter module replacement
-Summary(pl):	Inna wersja modu≥u Language::Prolog::Interpreter
+Summary(pl.UTF-8):   Inna wersja modu≈Çu Language::Prolog::Interpreter
 Name:		perl-Language-Prolog-Interpreter-new
 Version:	0.021
 Release:	3
@@ -25,10 +25,10 @@ potential. This distribution is a replacement for the main
 distribution's *Interpreter* module, and allows the reading of files,
 which may contain multi-line clauses, single- or multi-line clauses.
 
-%description -l pl
-Od dawna pozostawiony bez opieki modu≥ Language::Prolog ma wci±ø duøy
-potencja≥. Ten pakiet jest zamiennikiem dla modu≥u Interpreter z
-g≥Ûwnego pakietu. Pozwala na czytanie plikÛw zawieraj±cych jedno-
+%description -l pl.UTF-8
+Od dawna pozostawiony bez opieki modu≈Ç Language::Prolog ma wciƒÖ≈º du≈ºy
+potencja≈Ç. Ten pakiet jest zamiennikiem dla modu≈Çu Interpreter z
+g≈Ç√≥wnego pakietu. Pozwala na czytanie plik√≥w zawierajƒÖcych jedno-
 lub wieloliniowe warunki.
 
 %prep
