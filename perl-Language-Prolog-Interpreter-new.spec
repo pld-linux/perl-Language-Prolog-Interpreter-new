@@ -5,7 +5,7 @@ Summary:	Language::Prolog::Interpreter module replacement
 Summary(pl.UTF-8):	Inna wersja modułu Language::Prolog::Interpreter
 Name:		perl-Language-Prolog-Interpreter-new
 Version:	0.021
-Release:	3
+Release:	4
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
