@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Language
 %define		pnam	Prolog-Interpreter
+%include	/usr/lib/rpm/macros.perl
 Summary:	Language::Prolog::Interpreter module replacement
 Summary(pl.UTF-8):	Inna wersja modułu Language::Prolog::Interpreter
 Name:		perl-Language-Prolog-Interpreter-new
@@ -12,6 +12,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1159b02e61855b16d1b1a1eed63538f7
+URL:		http://search.cpan.org/dist/Language-Prolog-Interpreter/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Language-Prolog
@@ -28,8 +29,8 @@ which may contain multi-line clauses, single- or multi-line clauses.
 %description -l pl.UTF-8
 Od dawna pozostawiony bez opieki moduł Language::Prolog ma wciąż duży
 potencjał. Ten pakiet jest zamiennikiem dla modułu Interpreter z
-głównego pakietu. Pozwala na czytanie plików zawierających jedno-
-lub wieloliniowe warunki.
+głównego pakietu. Pozwala na czytanie plików zawierających jedno- lub
+wieloliniowe warunki.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
