@@ -1,6 +1,5 @@
 %define		pdir	Language
 %define		pnam	Prolog-Interpreter
-%include	/usr/lib/rpm/macros.perl
 Summary:	Language::Prolog::Interpreter module replacement
 Summary(pl.UTF-8):	Inna wersja modułu Language::Prolog::Interpreter
 Name:		perl-Language-Prolog-Interpreter-new
